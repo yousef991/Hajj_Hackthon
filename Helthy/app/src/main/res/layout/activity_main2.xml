@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/path_1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+<ImageView
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:focusable="false"
+        android:src="@drawable/mashkor" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:gravity="top|center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/email"
+            android:focusable="true"
+            android:gravity="center"
+            android:fontFamily="Cairo"
+            android:id="@+id/text"
+            android:textAllCaps="true"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <RelativeLayout
+            android:id="@+id/but"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/group_7"
+            android:layout_marginTop="150dp"
+            android:gravity="center_vertical">
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:singleLine="true"
+        android:text="Details"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/tn_lt"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clickable="false"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:text="Name"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+
+        <TextView
+            android:id="@+id/pName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/tn_lt"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/tn_lt"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clickable="false"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:text="ID"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+
+        <TextView
+            android:id="@+id/pID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/tn_lt"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/tn_lt"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clickable="false"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:text="Date Time"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+
+        <TextView
+            android:id="@+id/pdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/tn_lt"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/tn_lt"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clickable="false"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:text="Disease Level"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+
+        <TextView
+            android:id="@+id/pL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/tn_lt"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/white"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gnacnuBTN"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_15sdp"
+        android:background="@drawable/loginbutton_selector"
+        android:padding="@dimen/_3sdp"
+        android:text="OK"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/senNO"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/loginbutton_selector"
+        android:padding="@dimen/_3sdp"
+        android:text="Send Notification"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        android:typeface="serif" />
+</LinearLayout>

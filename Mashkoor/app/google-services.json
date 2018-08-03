@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1079474502086",
+    "firebase_url": "https://hajjdoc-f4e6a.firebaseio.com",
+    "project_id": "hajjdoc-f4e6a",
+    "storage_bucket": "hajjdoc-f4e6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079474502086:android:861e33d6399527b2",
+        "android_client_info": {
+          "package_name": "com.userapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079474502086-ifg8lgsd5gn3bcc1023nsb8jr9k9ch4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.userapp",
+            "certificate_hash": "bf1ef151ecd8993888bd6f1b44cbd6f30f747efd"
+          }
+        },
+        {
+          "client_id": "1079474502086-nijipu42roor5j8f5ujkrnn9q4i63b2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJOue9JHaRwD76ym66CeIHdGvjk4GA_Is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079474502086-nijipu42roor5j8f5ujkrnn9q4i63b2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

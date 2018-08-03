@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mashkor</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="md_em">Hajj Doctor</string>
+    <string name="login">Login Here!</string>
+    <string name="signinwithgp">Sign in with Google</string>
+    <string name="no_network">No internet connection!</string>
+    <string name="ch">Choose your option</string>
+    <string name="iamuser">I am a Patient</string>
+    <string name="iamdoc">I am a Doctor</string>
+    <string name="user">Enter Details</string>
+    <string name="id">Enter ID</string>
+    <string name="name">Enter your name</string>
+    <string name="ppname">Enter your Passport no.</string>
+    <string name="upload">Upload files, pdfs, jpeg</string>
+    <string name="submit">Submit Details</string>
+    <string name="re_list">Request List</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">global</string>
+
+    <!--tables-->
+    <string name="user_table">user</string>
+    <string name="cstmsg">Enter message</string>
+</resources>
